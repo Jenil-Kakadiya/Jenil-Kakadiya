@@ -72,15 +72,6 @@ I’m passionate about building **scalable, user-friendly web applications** and
 
 ---
 
-## 📊 GitHub Stats
-![Jenil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jenil-Kakadiya&show_icons=true&theme=radical)  
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jenil-Kakadiya&layout=compact&theme=radical)  
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Jenil-Kakadiya&theme=radical)  
-
----
-
 ## 📫 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/JenilKakadiya)  
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jenil-Kakadiya)  
