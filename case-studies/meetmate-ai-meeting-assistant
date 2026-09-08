@@ -1,3 +1,9 @@
+
+Also, GitHub Markdown is more reliable if we keep the Mermaid labels simple and avoid overly complex text inside nodes.
+
+Here is a **GitHub-compatible complete version** you can directly replace your current `meetmate-ai-meeting-assistant.md` with:
+
+```markdown
 # MeetMate — AI Meeting Assistant
 
 > An AI-powered meeting assistant that joins Google Meet, understands the ongoing conversation, maintains meeting context, and can participate in two-way conversations when triggered.
@@ -83,8 +89,9 @@ The overall workflow was:
 
 ```mermaid
 flowchart TD
-    A[Google Meet] --> B[Playwright / Chrome Session]
-    B --> C[Extract Meeting Conversation / Audio]
+    A[Google Meet] --> B[Playwright Chrome Session]
+    B --> C[Extract Meeting Data]
+
     C --> D[Process Meeting Data]
     D --> E[Chunk Data]
     E --> F[Generate Embeddings]
@@ -98,9 +105,9 @@ flowchart TD
     H -->|Trigger Detected| J[Retrieve Relevant Context]
     G --> J
 
-    J --> K[Generate Context-Aware LLM Response]
-    K --> L[Flask Text-to-Speech Endpoint]
-    L --> M[Generated Audio]
+    J --> K[Generate LLM Response]
+    K --> L[Flask TTS Endpoint]
+    L --> M[Generate Audio]
     M --> B
     B --> A
 
